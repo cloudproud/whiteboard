@@ -1,25 +1,15 @@
 node_modules
 .next
-dist
-*.tsbuildinfo
-
 .git
-.github
-.gitignore
-.claude
-# The Brainpod session console writes this mid-deploy. Without it here, every
-# deploy invalidates `COPY . .` and rebuilds the image from the dependency stage.
-.brainpod
-.vscode
-.idea
-
-.env
-.env.*
-
-docker-compose.yml
-deploy
-docs
+.env*
+*.log
 *.md
-
-.DS_Store
-npm-debug.log*
+*.yml
+*.yaml
+.gitignore
+.dockerignore
+Dockerfile
+Dockerfile.*
+.docker
+.dist
+*.tsbuildinfo

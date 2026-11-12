@@ -2,4 +2,4 @@ build:
   whiteboard:
     type: docker
     context: .
-    dockerfile: Dockerfile
+    dockerfile: Dockerfile.brainpod
