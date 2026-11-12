@@ -1,0 +1,5 @@
+build:
+  whiteboard:
+    type: docker
+    context: .
+    dockerfile: Dockerfile
